@@ -39,6 +39,21 @@ html {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 30px;
+    /* background-color: #37415152;     */
 }
+
+.projects-animation {
+    animation: scale-up 0.3s ease;
+}
+
+@keyframes scale-up {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 
 /* "Everything is coming precisely as mohamed planned." */

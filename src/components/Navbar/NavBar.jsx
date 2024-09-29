@@ -42,7 +42,7 @@ function NavBar() {
         <>
         <div className={`${shadow ? "navShadow" : "" } ${shadow && state === "night" && "navShadow_dark"} ${state === "night" ? " bg-primary_dark" : "bg-white"}  fixed top-0 w-full left-0  z-[100] `}>
             <div className="sm:container px-[20px] flex justify-between mx-auto  py-[15px] items-center">
-                <div className="text-[30px] font-bold  ">said</div>
+                <div className="text-[30px] font-bold  ">Said</div>
                 <div className="hidden md:block">
                     <NavLinks/>
                 </div>

@@ -7,19 +7,19 @@ function About() {
     return (
         <div id="about" className="container px-[20px] mx-auto my-[100px]">
             <h2 className={`${state === "night" && "before:bg-white"} main-title`}>About</h2>
-            <div className="flex gap-[10px] items-center justify-center flex-wrap">
-                <p className={`${state === "day" ? "bg-secondary text-gray-500" : "bg-secondary_dark text-white"}  p-[20px] rounded-[4px]  w-[380px] lg:w-[360px] h-[300px] sm:h-[250px] shadow-sm 
+            <div className="flex gap-[20px] items-center justify-center flex-wrap ">
+                <p className={`${state === "day" ? "bg-secondary text-gray-500" : "bg-secondary_dark text-white"}  p-[20px] rounded-[4px]  w-[350px] lg:w-[360px] h-[300px] sm:h-[250px] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:translate-y-[-15px] transition-[0.3s]
                 text-[15px] leading-[1.6]`}>
                     <span className="block text-center text-primary text-[25px] mb-[10px]"><FontAwesomeIcon icon={faHandsClapping} /></span>
-                    Hello! I&apos;m Said Gharrous, a dedicated full stack developer with expertise in frontend and backend technologies. I specialize in React for dynamic UIs and Laravel for scalable backends.  </p>
+                    Hello! I&apos;m Said Gharrous, a dedicated full stack web developer with strong skills in both frontend and backend development. I’m always eager to learn and quickly adapt to any new technologies </p>
 
-                <p className={`${state === "day" ? "bg-secondary text-gray-500" : "bg-secondary_dark text-white"}  p-[20px] rounded-[4px]  w-[380px] lg:w-[360px] h-[300px] sm:h-[250px] shadow-sm 
+                <p className={`${state === "day" ? "bg-secondary text-gray-500" : "bg-secondary_dark text-white"}  p-[20px] rounded-[4px]  w-[350px] lg:w-[360px] h-[300px] sm:h-[250px] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:translate-y-[-15px] transition-[0.3s]
                 text-[15px] leading-[1.6]`}>
                     <span className="block text-center text-primary text-[25px] mb-[10px]"><FontAwesomeIcon icon={faDesktop} /></span>
                     I&apos;ve honed my skills through various projects, applying web development knowledge to solve real-world problems. My experience includes designing, developing, and maintaining user-friendly and efficient web applications.
                 </p>
                 
-                <p className={`${state === "day" ? "bg-secondary text-gray-500" : "bg-secondary_dark text-white"}  p-[20px] rounded-[4px]  w-[380px] lg:w-[360px] h-[300px] sm:h-[250px] shadow-sm 
+                <p className={`${state === "day" ? "bg-secondary text-gray-500" : "bg-secondary_dark text-white"}  p-[20px] rounded-[4px]  w-[350px] lg:w-[360px] h-[300px] sm:h-[250px] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] hover:translate-y-[-15px] transition-[0.3s]
                 text-[15px] leading-[1.6]`}>
                     <span className="block text-center text-primary text-[25px] mb-[10px]">
                         <FontAwesomeIcon icon={faGraduationCap} />
